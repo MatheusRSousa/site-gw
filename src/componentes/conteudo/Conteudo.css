@@ -1,0 +1,25 @@
+
+.conteudo{
+    display: flex;
+    background: #0c408e;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #9baa2b;
+    
+
+}
+
+@media screen and (min-width: 200px) {
+    .conteudo{
+        font-size: 80%;
+    }
+}
+  
+@media screen and (min-width: 750px) {
+   
+       .conteudo{
+        font-size: 150%;
+       }
+}

@@ -1,0 +1,50 @@
+
+.rodape{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #0c408e;
+}
+.logoRodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.logoRodape img{
+    width: 100%;
+}
+.informacoes{
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    font-weight: 20px;
+}
+.rodape p{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 20px;
+}
+
+
+@media screen and (min-width: 200px) {
+    .informacoes{
+        max-width: 100%;
+       
+    }
+    .logoRodape{
+        margin-top: 40px;
+    }
+}
+  
+@media screen and (min-width: 750px) {
+    .informacoes{
+        max-width: 40%;
+    }
+    .logoRodape{
+        width: 40%;
+    }
+}

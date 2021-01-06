@@ -1,0 +1,15 @@
+.conteudoEmpresa{
+    padding: 50px;
+    background: white;
+    border-radius: unset;
+}
+hr{
+    border-width: 2px;
+    border-color: black;
+}
+.conteudoEmpresa hr{
+    width: 30px;
+    border-color: #9baa2b;
+    border-radius: 10px;
+
+}
