@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './CentralAssinante.css';
-import logo from '../imagens/logo-gw.jpeg'
+import logo from '../imagens/logo-gw.jpg'
 
 export default function CentralAssinante(){
     const [filial, setFilial] = useState(1);
