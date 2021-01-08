@@ -2,14 +2,16 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import "./Slide.css";
 import "react-image-gallery/styles/scss/image-gallery.scss";
+import slide1 from "../../imagens/Prancheta 2.png";
+import slide2 from "../../imagens/Prancheta 3.png";
 import slide3 from "../../imagens/slide3.jpg";
 
 const images = [
   {
-      original: slide3
+      original: slide1
     },
     {
-      original: slide3
+      original: slide2
     },
     {
       original: slide3
