@@ -3,8 +3,8 @@ import { useHistory } from 'react-router-dom'
 import "./Planos.css"
 
 export default function Planos() {
-    const lista = [{descricao : "10 MB", valor: "59", tipoConexao: "Via rádio", download: "10 Mbps", upload:"10 Mbps"}, {descricao : "15 MB", valor: "79", tipoConexao: "Via rádio", download: "15 Mbps", upload:"15 Mbps"}
-    ,{descricao : "20 MB", valor: "99", tipoConexao: "Via rádio", download: "20 Mbps", upload:"20 Mbps"},{descricao : "50 MB", valor: "59", tipoConexao: "Fibra Óptica", download: "50 Mbps", upload:"50 Mbps"}]
+    const lista = [{descricao : "10 MB", valor: "59", tipoConexao: "Via rádio", download: "10 Mbps", upload:"10 Mbps"}, {descricao : "15 MB", valor: "79", tipoConexao: "Via rádio", download: "15 Mbps", upload:"10 Mbps"}
+    ,{descricao : "20 MB", valor: "99", tipoConexao: "Via rádio", download: "20 Mbps", upload:"10 Mbps"},{descricao : "50 MB", valor: "59", tipoConexao: "Fibra Óptica", download: "50 Mbps", upload:"10 Mbps"}]
     
 
     const history = useHistory();
